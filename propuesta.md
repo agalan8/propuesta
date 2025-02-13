@@ -48,6 +48,7 @@ Red social sobre fotografía.
 # Elemento de innovación
 
 - Se usará Inertia.js como intermediario para crear una aplicación de una sola página en combinación con React para el desarrollo del frontend.
+- Los archivos como imágenes serán almacenados en un servicio de almacenamiento en la nube como AWS.
 - Se implementará una librería como Turn.js para crear los Flipbooks.
 - Se implementará una librería como Leaflet.js para mostrar en un mapa interactivo la ubicación de las fotos de las publicaciones de los usuarios.
 - Se implementará una librería como Stripe para integrar la plataforma de pago en la web.
