@@ -325,34 +325,142 @@
 | **Entrega**     | v1             |
 
 
-| **R37**     | **Crear usuario**         |
+| **R37**     | **Uso de Breeze para autenticación de usuarios**         |
 | --------------: | :------------------- |
-| **Descripción** | Se crearán usuarios mediante un formulario, indicando:  - Email - Nombre de usuario - Contraseña             |
+| **Descripción** | Se implementará Breeze para la autenticación de usuarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R38**     | **Uso de Inertia.js para crear la web**         |
+| --------------: | :------------------- |
+| **Descripción** | Se usará Inertia.js como intermediario para crear una aplicación de una sola página en combinación con React para el desarrollo del frontend.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R39**     | **Registro de cuenta de usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá registrarse en la página web creando una cuenta de usuario mediante un formulario, indicando:  - Email - Nombre de usuario - Contraseña             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R38**     | **Editar usuario**         |
+| **R40**     | **Inicio de sesión**         |
 | --------------: | :------------------- |
-| **Descripción** | El usuario podrá editar su información desde su perfil. Información como:  - Imagen de perfil. - Imagen de portada del perfil. - Localización. - Biografía. - Redes sociales. - Nombre de usuario, email, contraseña.             |
+| **Descripción** | El usuario podrá iniciar sesión en su cuenta de usuario mediante un formulario, indicando:  - Email o Nombre de usuario. - Contraseña             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R39**     | **Eliminar usuario**         |
+| **R41**     | **Modificar perfil de usuario**         |
 | --------------: | :------------------- |
-| **Descripción** | El usuario podrá eliminar su cuenta.             |
+| **Descripción** | El usuario podrá editar su información de usuario desde su perfil. Información como:  - Imagen de perfil. - Imagen de portada del perfil. - Localización. - Biografía. - Redes sociales. - Nombre de usuario, email, contraseña.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R40**     | **Crear publicación**         |
+| **R42**     | **Eliminar cuenta de usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá eliminar su cuenta de usuario desde su perfil.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R43**     | **Mostrar usuarios registrados en la web**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario administrador de la web podrá acceder a un apartado donde se mostrará un listado con todos los usuarios registrados en la web.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R44**     | **Crear usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario administrador de la web podrá crear un usuario desde el listado de usuarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R45**     | **Editar usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario administrador de la web podrá modificar la información de un usuario a través del listado de usuarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R46**     | **Eliminar usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario administrador de la web podrá eliminar un usuario o varios a la vez a través del listado de usuarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R47**     | **Ordenar usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario administrador podrá ordenar el listado de usuarios por nombre, fecha de creación…             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R48**     | **Búsqueda en el listado de usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario administrador podrá realizar una búsqueda de usuarios en el listado de usuarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R49**     | **Crear categoría**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario administrador podrá crear una nueva categoría mediante un formulario, indicando:  - Nombre de la categoría             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R50**     | **Modificar categoría**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario administrador podrá modificar el nombre de una categoría.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R51**     | **Eliminar categoría**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario administrador podrá eliminar una categoría.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R52**     | **Crear publicación**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá crear una publicación mediante un formulario, indicando:  - Imagen - Título - Descripción - Categoría - Localización             |
 | **Prioridad**   | Importante           |
@@ -361,7 +469,7 @@
 | **Entrega**     | v1             |
 
 
-| **R41**     | **Editar publicación**         |
+| **R53**     | **Editar publicación**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá editar la información de una publicación desde la propia publicación o desde su perfil.             |
 | **Prioridad**   | Importante           |
@@ -370,7 +478,7 @@
 | **Entrega**     | v1             |
 
 
-| **R42**     | **Eliminar publicación**         |
+| **R54**     | **Eliminar publicación**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá eliminar una publicación desde la propia publicación o varias publicaciones a la vez desde su perfil.             |
 | **Prioridad**   | Importante           |
@@ -379,7 +487,43 @@
 | **Entrega**     | v1             |
 
 
-| **R43**     | **Crear álbum**         |
+| **R55**     | **Mostrar publicaciones de la web**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario administrador podrá acceder a un apartado donde se mostrará un listado con todas las publicaciones de la web.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R56**     | **Eliminar publicación (Administrador)**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario administrador podrá eliminar una publicación desde el listado de publicaciones.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R57**     | **Ordenar publicaciones**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario administrador podrá ordenar el listado de publicaciones por título, número de me gustas, ubicación…             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R58**     | **Buscar publicaciones en el listado de publicaciones**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario administrador podrá realizar una búsqueda de publicaciones en el listado de publicaciones.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R59**     | **Crear álbum**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá crear un álbum mediante un formulario, indicando:  - Nombre - Descripción - Imagen de portada             |
 | **Prioridad**   | Importante           |
@@ -388,7 +532,7 @@
 | **Entrega**     | v1             |
 
 
-| **R44**     | **Editar álbum**         |
+| **R60**     | **Editar álbum**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá editar la información de un álbum.             |
 | **Prioridad**   | Importante           |
@@ -397,7 +541,7 @@
 | **Entrega**     | v1             |
 
 
-| **R45**     | **Eliminar álbum**         |
+| **R61**     | **Eliminar álbum**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá eliminar un álbum o varios a la vez.             |
 | **Prioridad**   | Importante           |
@@ -406,7 +550,7 @@
 | **Entrega**     | v1             |
 
 
-| **R46**     | **Añadir publicación a un álbum**         |
+| **R62**     | **Añadir publicación a un álbum**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá añadir una o varias publicaciones a la vez a un álbum.             |
 | **Prioridad**   | Importante           |
@@ -415,7 +559,7 @@
 | **Entrega**     | v1             |
 
 
-| **R47**     | **Quitar publicaciones de un álbum**         |
+| **R63**     | **Quitar publicaciones de un álbum**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá quitar una o varias publicaciones a la vez de un álbum.             |
 | **Prioridad**   | Importante           |
@@ -424,7 +568,7 @@
 | **Entrega**     | v1             |
 
 
-| **R48**     | **Visualizar álbum mediante Flipbook**         |
+| **R64**     | **Visualizar álbum mediante Flipbook**         |
 | --------------: | :------------------- |
 | **Descripción** | En los álbumes habrá un botón mediante el cuál el usuario podrá visualizar las publicaciones de un álbum en formato Flipbook.             |
 | **Prioridad**   | Importante           |
@@ -433,7 +577,16 @@
 | **Entrega**     | v1             |
 
 
-| **R49**     | **Buscar usuarios**         |
+| **R65**     | **Librería para crear Flipbook**         |
+| --------------: | :------------------- |
+| **Descripción** | Se usará una librería como Turn.js para crear los Flipbooks.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R66**     | **Buscar usuarios**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá buscar otros usuarios mediante una barra de búsqueda, podrá filtrar la búsqueda por países.             |
 | **Prioridad**   | Importante           |
@@ -442,7 +595,7 @@
 | **Entrega**     | v1             |
 
 
-| **R50**     | **Página para invitados**         |
+| **R67**     | **Página para invitados**         |
 | --------------: | :------------------- |
 | **Descripción** | Habrá una página para usuarios sin sesión iniciada en la que podrá ver las últimas publicaciones pero no interactuar con ellas como comentar, dar me gusta, seguir usuarios…             |
 | **Prioridad**   | Importante           |
@@ -451,7 +604,7 @@
 | **Entrega**     | v1             |
 
 
-| **R51**     | **Página seguidos**         |
+| **R68**     | **Página seguidos**         |
 | --------------: | :------------------- |
 | **Descripción** | Los usuarios con sesión iniciada podrán visualizar una página donde se listarán últimas publicaciones de los usuarios a los que sigue.             |
 | **Prioridad**   | Importante           |
@@ -460,7 +613,16 @@
 | **Entrega**     | v1             |
 
 
-| **R52**     | **Añadir usuario a amigo / Ser añadido como amigo**         |
+| **R69**     | **Almacenar archivos en la nube**         |
+| --------------: | :------------------- |
+| **Descripción** | Los archivos como imágenes serán almacenados en un servicio de almacenamiento en la nube como AWS.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R70**     | **Añadir usuario a amigo / Ser añadido como amigo**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá añadir a otro usuario como amigo. Y podrá ser añadido como amigo recibiendo una solicitud de amistad que podrá aceptar o rechazar.             |
 | **Prioridad**   | Importante           |
@@ -469,7 +631,7 @@
 | **Entrega**     | v2             |
 
 
-| **R53**     | **Eliminar amigo**         |
+| **R71**     | **Eliminar amigo**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá eliminar a otro usuario de amigos.             |
 | **Prioridad**   | Importante           |
@@ -478,7 +640,7 @@
 | **Entrega**     | v2             |
 
 
-| **R54**     | **Crear comentario**         |
+| **R72**     | **Crear comentario**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá comentar publicaciones de otros usuarios o en otros comentarios de las publicaciones.             |
 | **Prioridad**   | Importante           |
@@ -487,7 +649,7 @@
 | **Entrega**     | v2             |
 
 
-| **R55**     | **Dar me gusta a una publicación**         |
+| **R73**     | **Dar me gusta a una publicación**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá dar me gusta a una publicación de otro usuario.             |
 | **Prioridad**   | Importante           |
@@ -496,7 +658,7 @@
 | **Entrega**     | v2             |
 
 
-| **R56**     | **Compartir una publicación**         |
+| **R74**     | **Compartir una publicación**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá compartir una publicación de otro usuario.             |
 | **Prioridad**   | Importante           |
@@ -505,7 +667,7 @@
 | **Entrega**     | v2             |
 
 
-| **R57**     | **Centro de notificaciones**         |
+| **R75**     | **Centro de notificaciones**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario tendrá un apartado de notificaciones donde le llegarán notificaciones como:  - Solicitudes de amistad. - Un usuario ha dado me gusta a su publicación. - Un usuario ha compartido su publicación.             |
 | **Prioridad**   | Importante           |
@@ -514,7 +676,7 @@
 | **Entrega**     | v2             |
 
 
-| **R58**     | **Crear comunidad**         |
+| **R76**     | **Crear comunidad**         |
 | --------------: | :------------------- |
 | **Descripción** | Un usuario podrá crear una comunidad, una comunidad consiste en un grupo de usuarios que aportan publicaciones (fotos). La comunidad se creará mediante un formulario, indicando:  - Comunidad pública o privada. - Nombre de la comunidad. - Descripción de la comunidad.             |
 | **Prioridad**   | Importante           |
@@ -523,7 +685,7 @@
 | **Entrega**     | v2             |
 
 
-| **R59**     | **Modificar comunidad**         |
+| **R77**     | **Modificar comunidad**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá modificar la información de una comunidad.             |
 | **Prioridad**   | Importante           |
@@ -532,7 +694,7 @@
 | **Entrega**     | v2             |
 
 
-| **R60**     | **Eliminar comunidad**         |
+| **R78**     | **Eliminar comunidad**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario que creó la comunidad podrá eliminar dicha comunidad.             |
 | **Prioridad**   | Importante           |
@@ -541,7 +703,7 @@
 | **Entrega**     | v2             |
 
 
-| **R61**     | **Unirse a una comunidad**         |
+| **R79**     | **Unirse a una comunidad**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario puede solicitar unirse a una comunidad, se unirá directamente a la comunidad en caso de que esta sea pública o esperará a que le acepten la solicitud en caso de que sea privada.             |
 | **Prioridad**   | Importante           |
@@ -550,7 +712,7 @@
 | **Entrega**     | v2             |
 
 
-| **R62**     | **Dejar una comunidad**         |
+| **R80**     | **Dejar una comunidad**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá dejar una comunidad.             |
 | **Prioridad**   | Importante           |
@@ -559,7 +721,7 @@
 | **Entrega**     | v2             |
 
 
-| **R63**     | **Aportar publicaciones a una comunidad**         |
+| **R81**     | **Aportar publicaciones a una comunidad**         |
 | --------------: | :------------------- |
 | **Descripción** | Los usuarios que pertenezcan a una comunidad podrán aportar publicaciones a estas.             |
 | **Prioridad**   | Importante           |
@@ -568,7 +730,7 @@
 | **Entrega**     | v2             |
 
 
-| **R64**     | **Buscar publicaciones**         |
+| **R82**     | **Buscar publicaciones**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá buscar publicaciones mediante una barra de búsqueda, pudiendo filtrar por categoría.             |
 | **Prioridad**   | Importante           |
@@ -577,7 +739,7 @@
 | **Entrega**     | v2             |
 
 
-| **R65**     | **Eliminar publicaciones de una comunidad**         |
+| **R83**     | **Eliminar publicaciones de una comunidad**         |
 | --------------: | :------------------- |
 | **Descripción** | Los usuarios podrán eliminar las publicaciones que han aportado a una comunidad.             |
 | **Prioridad**   | Importante           |
@@ -586,7 +748,7 @@
 | **Entrega**     | v2             |
 
 
-| **R66**     | **Crear tienda personal**         |
+| **R84**     | **Crear tienda personal**         |
 | --------------: | :------------------- |
 | **Descripción** | Cuando se cree un usuario con él se creará automáticamente una tienda personal, en la que podrá vender las publicaciones que el usuario seleccione.             |
 | **Prioridad**   | Importante           |
@@ -595,7 +757,7 @@
 | **Entrega**     | v3             |
 
 
-| **R67**     | **Añadir publicación a tienda personal**         |
+| **R85**     | **Añadir publicación a tienda personal**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá añadir a su tienda personal una de sus publicaciones mediante un formulario, indicando:  - Publicación que quiere añadir. - Precio.             |
 | **Prioridad**   | Importante           |
@@ -604,7 +766,7 @@
 | **Entrega**     | v3             |
 
 
-| **R68**     | **Eliminar publicación de tienda personal**         |
+| **R86**     | **Eliminar publicación de tienda personal**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá seleccionar una o varias publicaciones de su tienda personal y eliminarlas de la tienda.             |
 | **Prioridad**   | Importante           |
@@ -613,7 +775,7 @@
 | **Entrega**     | v3             |
 
 
-| **R69**     | **Modificar publicación tienda personal**         |
+| **R87**     | **Modificar publicación de tienda personal**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá modificar el precio de una publicación de su tienda personal.             |
 | **Prioridad**   | Importante           |
@@ -622,7 +784,7 @@
 | **Entrega**     | v3             |
 
 
-| **R70**     | **Mostrar ubicación de una publicación**         |
+| **R88**     | **Mostrar ubicación de una publicación**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá visualizar en un mapa la ubicación donde se realizó la foto que pertenece a una publicación.             |
 | **Prioridad**   | Importante           |
@@ -631,16 +793,34 @@
 | **Entrega**     | v3             |
 
 
-| **R71**     | **Implementar plataforma de pago**         |
+| **R89**     | **Librería para mapas**         |
 | --------------: | :------------------- |
-| **Descripción** | El usuario podrá realizar las comprar a través de una plataforma de pago.             |
+| **Descripción** | Se implementará una librería como Leaflet.js para mostrar en un mapa interactivo la ubicación de las fotos de las publicaciones de los usuarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R90**     | **Implementar plataforma de pago**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá realizar las compras a través de una plataforma de pago.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
 | **Entrega**     | v3             |
 
 
-| **R72**     | **Añadir publicación al carrito **         |
+| **R91**     | **Librería para plataforma de pago**         |
+| --------------: | :------------------- |
+| **Descripción** | Se implementará una librería como Stripe para integrar la plataforma de pago en la web.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R92**     | **Añadir publicación al carrito **         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá añadir la publicación de la tienda personal de otro usuario a su carrito.             |
 | **Prioridad**   | Importante           |
@@ -649,7 +829,7 @@
 | **Entrega**     | v3             |
 
 
-| **R73**     | **Eliminar publicación del carrito**         |
+| **R93**     | **Eliminar publicación del carrito**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá eliminar una publicación de su carrito             |
 | **Prioridad**   | Importante           |
@@ -658,7 +838,7 @@
 | **Entrega**     | v3             |
 
 
-| **R74**     | **Buscar comunidades**         |
+| **R94**     | **Buscar comunidades**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá buscar comunidades mediante una barra de búsqueda.             |
 | **Prioridad**   | Importante           |
@@ -667,7 +847,7 @@
 | **Entrega**     | v3             |
 
 
-| **R75**     | **Implementar roles de comunidad**         |
+| **R95**     | **Implementar roles de comunidad**         |
 | --------------: | :------------------- |
 | **Descripción** | Los usuarios que pertenezcan a una comunidad tendrán diferentes roles:  - Fundador: es el usuario que creó la comunidad y es el único que puede eliminarla. - Administrador: rol otorgador por el fundador, estos usuarios pueden aceptar o rechazar solicitudes de otros usuarios para unirse a la comunidad y eliminar publicaciones que otros usuarios han aportado a la comunidad. - Usuario normal: el resto de usuarios, solo podrán aportar publicaciones y eliminar las publicaciones que han aportado ellos.              |
 | **Prioridad**   | Opcional           |
@@ -676,16 +856,25 @@
 | **Entrega**     | v3             |
 
 
-| **R76**     | **Página de estadísticas de usuario**         |
+| **R96**     | **Página de estadísticas de usuario**         |
 | --------------: | :------------------- |
-| **Descripción** | Página en la que se mostrarán el número de me gustas, compartidos, seguidores… de un usuarios con diferentes gráficas.             |
+| **Descripción** | Página en la que se mostrarán el número de me gustas, compartidos, seguidores… de un usuario con diferentes gráficas.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
 | **Entrega**     | v3             |
 
 
-| **R77**     | **Editar comentario**         |
+| **R97**     | **Librería para gráficas**         |
+| --------------: | :------------------- |
+| **Descripción** | Se implementará una librería como Chart.js para la creación de gráficas para la página de estadísticas de usuario.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R98**     | **Editar comentario**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá editar sus comentarios.             |
 | **Prioridad**   | Opcional           |
@@ -694,7 +883,7 @@
 | **Entrega**     | v3             |
 
 
-| **R78**     | **Eliminar comentario**         |
+| **R99**     | **Eliminar comentario**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá eliminar sus comentarios.             |
 | **Prioridad**   | Opcional           |
@@ -703,7 +892,7 @@
 | **Entrega**     | v3             |
 
 
-| **R79**     | **Bloquear usuario**         |
+| **R100**     | **Bloquear usuario**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario podrá bloquear a otros usuarios.             |
 | **Prioridad**   | Opcional           |
@@ -712,11 +901,20 @@
 | **Entrega**     | v3             |
 
 
-| **R80**     | **Chat con amigos**         |
+| **R101**     | **Chat con amigos**         |
 | --------------: | :------------------- |
-| **Descripción** | El usuario podrá enviar mensajes en tiempo real a otro usuarios amigos.             |
+| **Descripción** | El usuario podrá enviar mensajes en tiempo real a otros usuarios amigos.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R102**     | **Laravel Echo + Pusher para el chat con amigos**         |
+| --------------: | :------------------- |
+| **Descripción** | Se implementará Laravel Echo + Pusher para integrar el chat con amigos en la web.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Técnico                |
 | **Complejidad** | Difícil         |
 | **Entrega**     | v3             |
 
@@ -762,47 +960,69 @@
 | (**R34**) Varios navegadores | Mínimo | Técnico | Fácil | v1 | 
 | (**R35**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 | 
 | (**R36**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 | 
-| (**R37**) Crear usuario | Importante | Funcional | Fácil | v1 | 
-| (**R38**) Editar usuario | Importante | Funcional | Fácil | v1 | 
-| (**R39**) Eliminar usuario | Importante | Funcional | Fácil | v1 | 
-| (**R40**) Crear publicación | Importante | Funcional | Fácil | v1 | 
-| (**R41**) Editar publicación | Importante | Funcional | Fácil | v1 | 
-| (**R42**) Eliminar publicación | Importante | Funcional | Fácil | v1 | 
-| (**R43**) Crear álbum | Importante | Funcional | Fácil | v1 | 
-| (**R44**) Editar álbum | Importante | Funcional | Fácil | v1 | 
-| (**R45**) Eliminar álbum | Importante | Funcional | Fácil | v1 | 
-| (**R46**) Añadir publicación a un álbum | Importante | Funcional | Fácil | v1 | 
-| (**R47**) Quitar publicaciones de un álbum | Importante | Funcional | Fácil | v1 | 
-| (**R48**) Visualizar álbum mediante Flipbook | Importante | Funcional | Fácil | v1 | 
-| (**R49**) Buscar usuarios | Importante | Funcional | Fácil | v1 | 
-| (**R50**) Página para invitados | Importante | Funcional | Fácil | v1 | 
-| (**R51**) Página seguidos | Importante | Funcional | Fácil | v1 | 
-| (**R52**) Añadir usuario a amigo / Ser añadido como amigo | Importante | Funcional | Media | v2 | 
-| (**R53**) Eliminar amigo | Importante | Funcional | Fácil | v2 | 
-| (**R54**) Crear comentario | Importante | Funcional | Media | v2 | 
-| (**R55**) Dar me gusta a una publicación | Importante | Funcional | Fácil | v2 | 
-| (**R56**) Compartir una publicación | Importante | Funcional | Media | v2 | 
-| (**R57**) Centro de notificaciones | Importante | Funcional | Difícil | v2 | 
-| (**R58**) Crear comunidad | Importante | Funcional | Fácil | v2 | 
-| (**R59**) Modificar comunidad | Importante | Funcional | Fácil | v2 | 
-| (**R60**) Eliminar comunidad | Importante | Funcional | Fácil | v2 | 
-| (**R61**) Unirse a una comunidad | Importante | Funcional | Media | v2 | 
-| (**R62**) Dejar una comunidad | Importante | Funcional | Fácil | v2 | 
-| (**R63**) Aportar publicaciones a una comunidad | Importante | Funcional | Media | v2 | 
-| (**R64**) Buscar publicaciones | Importante | Funcional | Fácil | v2 | 
-| (**R65**) Eliminar publicaciones de una comunidad | Importante | Funcional | Media | v2 | 
-| (**R66**) Crear tienda personal | Importante | Funcional | Difícil | v3 | 
-| (**R67**) Añadir publicación a tienda personal | Importante | Funcional | Difícil | v3 | 
-| (**R68**) Eliminar publicación de tienda personal | Importante | Funcional | Difícil | v3 | 
-| (**R69**) Modificar publicación tienda personal | Importante | Funcional | Media | v3 | 
-| (**R70**) Mostrar ubicación de una publicación | Importante | Funcional | Difícil | v3 | 
-| (**R71**) Implementar plataforma de pago | Importante | Funcional | Difícil | v3 | 
-| (**R72**) Añadir publicación al carrito  | Importante | Funcional | Difícil | v3 | 
-| (**R73**) Eliminar publicación del carrito | Importante | Funcional | Difícil | v3 | 
-| (**R74**) Buscar comunidades | Importante | Funcional | Fácil | v3 | 
-| (**R75**) Implementar roles de comunidad | Opcional | Funcional | Difícil | v3 | 
-| (**R76**) Página de estadísticas de usuario | Opcional | Funcional | Difícil | v3 | 
-| (**R77**) Editar comentario | Opcional | Funcional | Media | v3 | 
-| (**R78**) Eliminar comentario | Opcional | Funcional | Difícil | v3 | 
-| (**R79**) Bloquear usuario | Opcional | Funcional | Media | v3 | 
-| (**R80**) Chat con amigos | Opcional | Funcional | Difícil | v3 | 
+| (**R37**) Uso de Breeze para autenticación de usuarios | Importante | Técnico | Fácil | v1 | 
+| (**R38**) Uso de Inertia.js para crear la web | Importante | Técnico | Media | v1 | 
+| (**R39**) Registro de cuenta de usuario | Importante | Funcional | Fácil | v1 | 
+| (**R40**) Inicio de sesión | Importante | Funcional | Fácil | v1 | 
+| (**R41**) Modificar perfil de usuario | Importante | Funcional | Fácil | v1 | 
+| (**R42**) Eliminar cuenta de usuario | Importante | Funcional | Fácil | v1 | 
+| (**R43**) Mostrar usuarios registrados en la web | Importante | Funcional | Fácil | v1 | 
+| (**R44**) Crear usuario | Importante | Funcional | Fácil | v1 | 
+| (**R45**) Editar usuario | Importante | Funcional | Fácil | v1 | 
+| (**R46**) Eliminar usuario | Importante | Funcional | Fácil | v1 | 
+| (**R47**) Ordenar usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R48**) Búsqueda en el listado de usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R49**) Crear categoría | Importante | Funcional | Fácil | v1 | 
+| (**R50**) Modificar categoría | Importante | Funcional | Fácil | v1 | 
+| (**R51**) Eliminar categoría | Importante | Funcional | Fácil | v1 | 
+| (**R52**) Crear publicación | Importante | Funcional | Fácil | v1 | 
+| (**R53**) Editar publicación | Importante | Funcional | Fácil | v1 | 
+| (**R54**) Eliminar publicación | Importante | Funcional | Fácil | v1 | 
+| (**R55**) Mostrar publicaciones de la web | Importante | Funcional | Fácil | v1 | 
+| (**R56**) Eliminar publicación (Administrador) | Importante | Funcional | Fácil | v1 | 
+| (**R57**) Ordenar publicaciones | Importante | Funcional | Fácil | v1 | 
+| (**R58**) Buscar publicaciones en el listado de publicaciones | Importante | Funcional | Fácil | v1 | 
+| (**R59**) Crear álbum | Importante | Funcional | Fácil | v1 | 
+| (**R60**) Editar álbum | Importante | Funcional | Fácil | v1 | 
+| (**R61**) Eliminar álbum | Importante | Funcional | Fácil | v1 | 
+| (**R62**) Añadir publicación a un álbum | Importante | Funcional | Fácil | v1 | 
+| (**R63**) Quitar publicaciones de un álbum | Importante | Funcional | Fácil | v1 | 
+| (**R64**) Visualizar álbum mediante Flipbook | Importante | Funcional | Fácil | v1 | 
+| (**R65**) Librería para crear Flipbook | Importante | Técnico | Fácil | v1 | 
+| (**R66**) Buscar usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R67**) Página para invitados | Importante | Funcional | Fácil | v1 | 
+| (**R68**) Página seguidos | Importante | Funcional | Fácil | v1 | 
+| (**R69**) Almacenar archivos en la nube | Importante | Técnico | Difícil | v2 | 
+| (**R70**) Añadir usuario a amigo / Ser añadido como amigo | Importante | Funcional | Media | v2 | 
+| (**R71**) Eliminar amigo | Importante | Funcional | Fácil | v2 | 
+| (**R72**) Crear comentario | Importante | Funcional | Media | v2 | 
+| (**R73**) Dar me gusta a una publicación | Importante | Funcional | Fácil | v2 | 
+| (**R74**) Compartir una publicación | Importante | Funcional | Media | v2 | 
+| (**R75**) Centro de notificaciones | Importante | Funcional | Difícil | v2 | 
+| (**R76**) Crear comunidad | Importante | Funcional | Fácil | v2 | 
+| (**R77**) Modificar comunidad | Importante | Funcional | Fácil | v2 | 
+| (**R78**) Eliminar comunidad | Importante | Funcional | Fácil | v2 | 
+| (**R79**) Unirse a una comunidad | Importante | Funcional | Media | v2 | 
+| (**R80**) Dejar una comunidad | Importante | Funcional | Fácil | v2 | 
+| (**R81**) Aportar publicaciones a una comunidad | Importante | Funcional | Media | v2 | 
+| (**R82**) Buscar publicaciones | Importante | Funcional | Fácil | v2 | 
+| (**R83**) Eliminar publicaciones de una comunidad | Importante | Funcional | Media | v2 | 
+| (**R84**) Crear tienda personal | Importante | Funcional | Difícil | v3 | 
+| (**R85**) Añadir publicación a tienda personal | Importante | Funcional | Difícil | v3 | 
+| (**R86**) Eliminar publicación de tienda personal | Importante | Funcional | Difícil | v3 | 
+| (**R87**) Modificar publicación de tienda personal | Importante | Funcional | Media | v3 | 
+| (**R88**) Mostrar ubicación de una publicación | Importante | Funcional | Difícil | v3 | 
+| (**R89**) Librería para mapas | Importante | Técnico | Difícil | v3 | 
+| (**R90**) Implementar plataforma de pago | Importante | Funcional | Difícil | v3 | 
+| (**R91**) Librería para plataforma de pago | Importante | Técnico | Difícil | v3 | 
+| (**R92**) Añadir publicación al carrito  | Importante | Funcional | Difícil | v3 | 
+| (**R93**) Eliminar publicación del carrito | Importante | Funcional | Difícil | v3 | 
+| (**R94**) Buscar comunidades | Importante | Funcional | Fácil | v3 | 
+| (**R95**) Implementar roles de comunidad | Opcional | Funcional | Difícil | v3 | 
+| (**R96**) Página de estadísticas de usuario | Opcional | Funcional | Difícil | v3 | 
+| (**R97**) Librería para gráficas | Opcional | Técnico | Difícil | v3 | 
+| (**R98**) Editar comentario | Opcional | Funcional | Media | v3 | 
+| (**R99**) Eliminar comentario | Opcional | Funcional | Difícil | v3 | 
+| (**R100**) Bloquear usuario | Opcional | Funcional | Media | v3 | 
+| (**R101**) Chat con amigos | Opcional | Funcional | Difícil | v3 | 
+| (**R102**) Laravel Echo + Pusher para el chat con amigos | Opcional | Técnico | Difícil | v3 | 
